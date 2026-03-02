@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import './styles/Dashboard.css';
 import LoginForm from './components/LoginForm';
-import AdminDashboard from './components/AdminDashboard';
-import HRDashboard from './components/HRDashboard';
-import EmployeeDashboard from './components/EmployeeDashboard';
+import AdminDashboard from './pages/AdminDashboard';
+import HRDashboard from './pages/HRDashboard';
+import EmployeeDashboard from './pages/EmployeeDashboard';
 import Header from './components/Header';
 import { staticData } from './data/staticData';
 

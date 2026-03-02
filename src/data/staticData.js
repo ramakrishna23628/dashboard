@@ -6,6 +6,11 @@ export const staticData = {
     { id: 3, name: 'Mike Johnson', email: 'mike@example.com', role: 'Employee' },
     { id: 4, name: 'Sarah Williams', email: 'sarah@example.com', role: 'Employee' },
     { id: 5, name: 'David Brown', email: 'david@example.com', role: 'Employee' },
+    { id: 6, name: 'John Doe', email: 'john@example.com', role: 'Admin' },
+    { id: 7, name: 'Jane Smith', email: 'jane@example.com', role: 'HR Manager' },
+    { id: 8, name: 'Mike Johnson', email: 'mike@example.com', role: 'Employee' },
+    { id: 9, name: 'Sarah Williams', email: 'sarah@example.com', role: 'Employee' },
+    { id: 10, name: 'David Brown', email: 'david@example.com', role: 'Employee' },
   ],
 
   employees: [
@@ -14,6 +19,11 @@ export const staticData = {
     { id: 103, name: 'Carol Davis', department: 'Sales', salary: '$70,000', status: 'Active' },
     { id: 104, name: 'Diana Martinez', department: 'HR', salary: '$60,000', status: 'Active' },
     { id: 105, name: 'Edward Taylor', department: 'Engineering', salary: '$80,000', status: 'Inactive' },
+    { id: 106, name: 'Fiona Green', department: 'Marketing', salary: '$72,000', status: 'Active' },
+    { id: 107, name: 'George White', department: 'Sales', salary: '$68,000', status: 'Active' },
+    { id: 108, name: 'Helen Black', department: 'HR', salary: '$58,000', status: 'Active' },
+    { id: 109, name: 'Ian Blue', department: 'Engineering', salary: '$85,000', status: 'Inactive' },
+    { id: 110, name: 'Julia Red', department: 'Marketing', salary: '$74,000', status: 'Active' },
   ],
 
   employeeProfile: {
@@ -24,7 +34,7 @@ export const staticData = {
     department: 'Engineering',
     position: 'Senior Developer',
     joinDate: 'January 15, 2020',
-    salary: '$95,000',
+    salary: '95,000',
     manager: 'Robert Johnson',
   },
 };

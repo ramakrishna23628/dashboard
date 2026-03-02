@@ -9,18 +9,15 @@ function LoginForm({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    // Validation: Check if all fields are filled
+
     if (!email.trim() || !password.trim() || !role) {
       setError('All fields are required!');
       return;
     }
 
-    // Reset error and call onLogin
     setError('');
     onLogin({ email, password, role });
 
-    // Reset form
     setEmail('');
     setPassword('');
     setRole('employee');
@@ -31,12 +28,14 @@ function LoginForm({ onLogin }) {
       {/* left side description */}
       <div className="login-info">
         <h2>Welcome to the Dashboard</h2>
-        <p>Access your personalized workspace based on your role. Manage tasks,
-           view reports, and stay connected with your team.</p>
-        
+        <p>
+          Access your personalized workspace based on your role. Manage tasks,
+          view reports, and stay connected with your team.
+        </p>
       </div>
 
-      <div className="login-box">
+      {/* login card with hover effect */}
+      <div className="login-card">
         <h1>Dashboard Login</h1>
         <p className="subtitle">Select your role and login</p>
 
